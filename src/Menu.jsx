@@ -5,70 +5,70 @@ export default function Menu() {
     <Nav className="flex-column bg-light py-3 sticky-top">
       <Container className='text-center'>
         <Nav.Item >
-          <p>Kategoria</p>
+          <p className='Category'>Kategoria</p>
         </Nav.Item>
         <Nav.Item>
-          <p>Kategoria</p>
+          <p className='Category'>Kategoria</p>
         </Nav.Item>
         <Nav.Item>
-          <p>Kategoria</p>
+          <p className='Category'>Kategoria</p>
         </Nav.Item>
         <Nav.Item>
-          <p>Kategoria</p>
+          <p className='Category'>Kategoria</p>
         </Nav.Item>
         <Nav.Item>
-          <p>Kategoria</p>
+          <p className='Category'>Kategoria</p>
         </Nav.Item>
         <Nav.Item>
-          <p>Kategoria</p>
+          <p className='Category'>Kategoria</p>
         </Nav.Item>
         <Nav.Item>
-          <p>Kategoria</p>
+          <p className='Category'>Kategoria</p>
         </Nav.Item>
         <Nav.Item>
-          <p>Kategoria</p>
+          <p className='Category'>Kategoria</p>
         </Nav.Item>
         <Nav.Item>
-          <p>Kategoria</p>
+          <p className='Category'>Kategoria</p>
         </Nav.Item>
         <Nav.Item>
-          <p>Kategoria</p>
+          <p className='Category'>Kategoria</p>
         </Nav.Item>
         <Nav.Item>
-          <p>Kategoria</p>
+          <p className='Category'>Kategoria</p>
         </Nav.Item>
         <Nav.Item>
-          <p>Kategoria</p>
+          <p className='Category'>Kategoria</p>
         </Nav.Item>
         <Nav.Item>
-          <p>Kategoria</p>
+          <p className='Category'>Kategoria</p>
         </Nav.Item>
         <Nav.Item>
-          <p>Kategoria</p>
+          <p className='Category'>Kategoria</p>
         </Nav.Item>
         <Nav.Item>
-          <p>Kategoria</p>
+          <p className='Category'>Kategoria</p>
         </Nav.Item>
         <Nav.Item>
-          <p>Kategoria</p>
+          <p className='Category'>Kategoria</p>
         </Nav.Item>
         <Nav.Item>
-          <p>Kategoria</p>
+          <p className='Category'>Kategoria</p>
         </Nav.Item>
         <Nav.Item>
-          <p>Kategoria</p>
+          <p className='Category'>Kategoria</p>
         </Nav.Item>
         <Nav.Item>
-          <p>Kategoria</p>
+          <p className='Category'>Kategoria</p>
         </Nav.Item>
         <Nav.Item>
-          <p>Kategoria</p>
+          <p className='Category'>Kategoria</p>
         </Nav.Item>
         <Nav.Item>
-          <p>Kategoria</p>
+          <p className='Category'>Kategoria</p>
         </Nav.Item>
         <Nav.Item>
-          <p>Kategoria</p>
+          <p className='Category'>Kategoria</p>
         </Nav.Item>
       </Container>
     </Nav>
