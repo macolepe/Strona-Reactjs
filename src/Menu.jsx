@@ -1,19 +1,75 @@
-import { Nav, Container } from 'react-bootstrap';
+import { Nav, Container, Col } from 'react-bootstrap';
 
 export default function Menu() {
   return (
-    <Nav className="flex-column bg-light py-3 sticky-top" style={{ height: '100vh', width: '200px' }}>
-      <Container>
-        <Nav.Item>
-          <Nav.Link href="#">Kategoria 1</Nav.Link>
+    <Nav className="flex-column bg-light py-3 sticky-top">
+      <Container className='text-center'>
+        <Nav.Item >
+          <p>Kategoria</p>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link href="#">Kategoria 2</Nav.Link>
+          <p>Kategoria</p>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link href="#">Kategoria 3</Nav.Link>
+          <p>Kategoria</p>
         </Nav.Item>
-        {/* Dodaj więcej kategorii według potrzeb */}
+        <Nav.Item>
+          <p>Kategoria</p>
+        </Nav.Item>
+        <Nav.Item>
+          <p>Kategoria</p>
+        </Nav.Item>
+        <Nav.Item>
+          <p>Kategoria</p>
+        </Nav.Item>
+        <Nav.Item>
+          <p>Kategoria</p>
+        </Nav.Item>
+        <Nav.Item>
+          <p>Kategoria</p>
+        </Nav.Item>
+        <Nav.Item>
+          <p>Kategoria</p>
+        </Nav.Item>
+        <Nav.Item>
+          <p>Kategoria</p>
+        </Nav.Item>
+        <Nav.Item>
+          <p>Kategoria</p>
+        </Nav.Item>
+        <Nav.Item>
+          <p>Kategoria</p>
+        </Nav.Item>
+        <Nav.Item>
+          <p>Kategoria</p>
+        </Nav.Item>
+        <Nav.Item>
+          <p>Kategoria</p>
+        </Nav.Item>
+        <Nav.Item>
+          <p>Kategoria</p>
+        </Nav.Item>
+        <Nav.Item>
+          <p>Kategoria</p>
+        </Nav.Item>
+        <Nav.Item>
+          <p>Kategoria</p>
+        </Nav.Item>
+        <Nav.Item>
+          <p>Kategoria</p>
+        </Nav.Item>
+        <Nav.Item>
+          <p>Kategoria</p>
+        </Nav.Item>
+        <Nav.Item>
+          <p>Kategoria</p>
+        </Nav.Item>
+        <Nav.Item>
+          <p>Kategoria</p>
+        </Nav.Item>
+        <Nav.Item>
+          <p>Kategoria</p>
+        </Nav.Item>
       </Container>
     </Nav>
   );
