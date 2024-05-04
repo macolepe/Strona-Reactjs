@@ -1,16 +1,19 @@
 import React from 'react';
 import { Container, Card } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 export default function Header() {
   return (
     <Card className="bg-dark text-white rounded-0">
       <Card.Body>
         <Container className='d-flex justify-content-between align-items-center'>
-          <h1>Witaj w Sklepie Elektronicznym</h1>
+          <Link to="/" className="text-white text-decoration-none mx-2" role='button'>
+            <h1>Sklep Elektroniczny</h1>
+          </Link>
           <div className="d-flex">
-            <p className="text-white text-decoration-none mx-2" role='button'>O nas</p>
-            <p className="text-white text-decoration-none mx-2" role='button'>Kontakt</p>
-            <p className="text-white text-decoration-none mx-2" role='button'>Dlaczego my</p>
+            <Link to="/onas" className="text-white text-decoration-none mx-2" role='button'>O nas</Link>
+            <Link to="/kontakt" className="text-white text-decoration-none mx-2" role='button'>Kontakt</Link>
+            <Link to="/dlaczegomy" className="text-white text-decoration-none mx-2" role='button'>Dlaczego my</Link>
           </div>
         </Container>
       </Card.Body>

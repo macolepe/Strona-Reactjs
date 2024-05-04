@@ -8,6 +8,10 @@ padding: 0;
 min-height: 100vh;
 }
 
+H1 {
+    cursor: pointer;
+}
+
 img {
     width: 33px;
 }
