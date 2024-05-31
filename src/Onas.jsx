@@ -2,7 +2,8 @@ import Header from './Header.jsx';
 
 export default function Onas() {
     return (
-      <Header/>
+        <>
+            <h1>Onas</h1>
+        </>
     );
-  }
-  
+}

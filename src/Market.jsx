@@ -3,7 +3,7 @@
 
 export default function Market() {
   return (
-        <div></div>
+      <h1>Market</h1>
     )
 }
 

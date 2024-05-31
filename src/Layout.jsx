@@ -1,9 +1,15 @@
 import Cart from './images/shopping cart.svg'
+import Menu from './Menu';
 import { Container, Row, Card, Button, Col } from 'react-bootstrap';
 
 export default function Layout() {
     return (
         <>
+                <Row>
+          <Col md={2}>
+            <Menu />
+          </Col>
+                  <Col md={10}>
             <Container>
                 <h2 className="py-4">Polecane Produkty</h2>
                 <Row>
@@ -148,6 +154,8 @@ export default function Layout() {
                     </Col>
                 </Row>
             </Container>
+            </Col>
+            </Row>
         </>
     )
 }
