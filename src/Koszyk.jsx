@@ -32,7 +32,6 @@ export default function Koszyk() {
                                 <td>1</td>
                                 <td><Button variant="danger">Usuń</Button></td>
                             </tr>
-                            {/* Dodaj więcej wierszy, jeśli masz więcej produktów w koszyku */}
                         </tbody>
                     </Table>
                 </div>

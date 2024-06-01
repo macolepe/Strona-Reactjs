@@ -29,7 +29,7 @@ export default function Dashboard() {
                     <Card>
                         <Card.Body>
                             <h3>Lista użytkowników</h3>
-                            <h1>10</h1> {/* Wyświetl liczność użytkowników */}
+                            <h1>10</h1> 
                         </Card.Body>
                     </Card>
                 </Col>

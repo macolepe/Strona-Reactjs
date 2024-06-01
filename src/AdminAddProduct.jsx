@@ -35,7 +35,6 @@ export default function AddProduct() {
                                 <option>Laptopy</option>
                                 <option>Smartfony</option>
                                 <option>Tablety</option>
-                                {/* Dodaj więcej kategorii */}
                             </Form.Control>
                         </Form.Group>
 

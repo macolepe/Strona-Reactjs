@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
-import { HashLink as Link } from 'react-router-hash-link'; // Import HashLink for smooth scrolling
+import { HashLink as Link } from 'react-router-hash-link';
 
 export default function Produkt() {
   const [selectedImage, setSelectedImage] = useState("https://via.placeholder.com/450");
