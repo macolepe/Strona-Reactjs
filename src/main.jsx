@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from './App.jsx'
-import Market from './Market.jsx'
+import Produkt from './Market.jsx'
 import Dlaczegomy from './Dlaczegomy.jsx';
 import Kontakt from './Kontakt.jsx';
 import Onas from './Onas.jsx';
@@ -10,6 +10,7 @@ import Koszyk from './Koszyk.jsx';
 import AddProduct from './AdminAddProduct.jsx';
 import LoginPage from './Login.jsx';
 import Layout from './Layout.jsx';
+import Dashboard from './AdminDashboard.jsx';
 import './index.css'
 
 const router = createBrowserRouter([
@@ -22,8 +23,8 @@ const router = createBrowserRouter([
         element: <Layout />,
       },
       {
-        path: 'market',
-        element: <Market />,
+        path: 'produkt',
+        element: <Produkt />,
       },
       {
         path: 'dlaczegomy',
@@ -47,7 +48,7 @@ const router = createBrowserRouter([
       },
       {
         path: 'dashboard',
-        element: <AddProduct />,
+        element: <Dashboard />,
       },
       {
         path: 'login',

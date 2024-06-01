@@ -1,11 +1,12 @@
 import Cart from './images/shopping cart.svg'
 import Menu from './Menu';
+import { Link } from 'react-router-dom';
 import { Container, Row, Card, Button, Col } from 'react-bootstrap';
 
 export default function Layout() {
     return (
         <>
-                <Row>
+            <Row>
           <Col md={2}>
             <Menu />
           </Col>
@@ -13,27 +14,31 @@ export default function Layout() {
             <Container>
                 <h2 className="py-4">Polecane Produkty</h2>
                 <Row>
-                    <Col md={4}>
-                        <Card >
+                <Col md={4}>
+                    <Card>
+                        <Link to="/produkt" className="text-decoration-none">
                             <Card.Img variant="top" src="https://via.placeholder.com/150" role='button' />
-                            <Card.Body>
-                                <Card.Title className='d-flex justify-content-between'>
-                                    <p>Produkt 1</p>
-                                    <p>00.00$</p>
-                                </Card.Title>
-                                <Card.Text>
-                                    Opis
-                                </Card.Text>
-                                <div className="d-flex justify-content-between">
-                                    <Button variant="primary">Kup teraz</Button>
-                                    <Button variant="primary"><img src={Cart} /></Button>
-                                </div>
-                            </Card.Body>
-                        </Card>
-                    </Col>
+                        </Link>
+                        <Card.Body>
+                            <Card.Title className='d-flex justify-content-between'>
+                                <p>Produkt 1</p>
+                                <p>00.00$</p>
+                            </Card.Title>
+                            <Card.Text>
+                                Opis
+                            </Card.Text>
+                            <div className="d-flex justify-content-between">
+                                <Button variant="primary">Kup teraz</Button>
+                                <Button variant="primary"><img src={Cart} alt="Koszyk" /></Button>
+                            </div>
+                        </Card.Body>
+                    </Card>
+                </Col>
                     <Col md={4}>
                         <Card>
+                        <Link to="/produkt" className="text-decoration-none">
                             <Card.Img variant="top" src="https://via.placeholder.com/150" role='button' />
+                        </Link>
                             <Card.Body>
                                 <Card.Title className='d-flex justify-content-between'>
                                     <p>Produkt 2</p>
@@ -51,7 +56,9 @@ export default function Layout() {
                     </Col>
                     <Col md={4}>
                         <Card>
+                        <Link to="/produkt" className="text-decoration-none">
                             <Card.Img variant="top" src="https://via.placeholder.com/150" role='button' />
+                        </Link>
                             <Card.Body>
                                 <Card.Title className='d-flex justify-content-between'>
                                     <p>Produkt 3</p>
@@ -74,7 +81,9 @@ export default function Layout() {
                 <Row>
                     <Col md={4}>
                         <Card>
+                        <Link to="/produkt" className="text-decoration-none">
                             <Card.Img variant="top" src="https://via.placeholder.com/150" role='button' />
+                        </Link>
                             <Card.Body>
                                 <Card.Title className='d-flex justify-content-between'>
                                     <p>Bestseller 1</p>
@@ -92,7 +101,9 @@ export default function Layout() {
                     </Col>
                     <Col md={4}>
                         <Card>
+                        <Link to="/produkt" className="text-decoration-none">
                             <Card.Img variant="top" src="https://via.placeholder.com/150" role='button' />
+                        </Link>
                             <Card.Body>
                                 <Card.Title className='d-flex justify-content-between'>
                                     <p>Bestseller 2</p>
@@ -110,7 +121,9 @@ export default function Layout() {
                     </Col>
                     <Col md={4}>
                         <Card>
+                        <Link to="/produkt" className="text-decoration-none">
                             <Card.Img variant="top" src="https://via.placeholder.com/150" role='button' />
+                        </Link>
                             <Card.Body>
                                 <Card.Title className='d-flex justify-content-between'>
                                     <p>Bestseller 3</p>

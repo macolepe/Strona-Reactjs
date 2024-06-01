@@ -1,6 +1,8 @@
 import React from 'react';
 import { Container, Card } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import Cart from './images/shopping cart.svg'
+
 
 export default function Header() {
   return (
@@ -14,6 +16,12 @@ export default function Header() {
             <Link to="/onas" className="text-white text-decoration-none mx-2" role='button'>O nas</Link>
             <Link to="/kontakt" className="text-white text-decoration-none mx-2" role='button'>Kontakt</Link>
             <Link to="/dlaczegomy" className="text-white text-decoration-none mx-2" role='button'>Dlaczego my</Link>
+            <Link to="/dodawanieproduktu" className="text-white text-decoration-none mx-2" role='button'>Dodaj produkt</Link>
+            <Link to="/dashboard" className="text-white text-decoration-none mx-2" role='button'>Dashboard</Link>
+          </div>
+          <div>
+          <Link to="/login" className="text-white text-decoration-none mx-2" role='button'>Zaloguj się</Link>
+          <Link to="/koszyk" className="text-white text-decoration-none mx-2" role='button'><img src={Cart}></img></Link>
           </div>
         </Container>
       </Card.Body>

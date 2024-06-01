@@ -4,6 +4,6 @@ dodawanie produktu
 dashboard admina 
 market
 dany produkt 
-koszyk 
+koszyk ok
 Kontakt
-logowanie
+logowanie ok
