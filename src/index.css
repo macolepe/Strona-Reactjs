@@ -31,11 +31,6 @@ img {
   cursor: pointer;
 }
 
-#Koszyk {
-  min-height: 100vh;
-  padding-top: 150px;
-}
-
 #logowanie {
   min-height: 100vh;
   padding-top: 150px;
@@ -54,4 +49,29 @@ img {
 #produkt {
   min-height: 100vh;
   padding-top: 60px;
+}
+
+#Koszyk {
+  min-height: 100vh;
+  padding-top: 150px;
+}
+
+.DeleteButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#Koszyk h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+#Koszyk .table {
+  margin-top: 20px;
+}
+
+#Koszyk .text-end h4 {
+  font-size: 1.5rem;
+  margin-top: 20px;
 }
